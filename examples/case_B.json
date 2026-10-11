@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_name": "某渔光互补集中式光伏电站",
+    "insured": "某水产养殖有限公司",
+    "location": "某河流南岸滩涂农田区",
+    "installation_type": "渔光互补（集中式）"
+  },
+  "material_results": [
+    {
+      "material": "备案证",
+      "result": "不通过",
+      "risk_level": "高",
+      "description": "备案类型含：渔光、集中式、林光，属拒保范围",
+      "location": "备案证第 1 页"
+    },
+    {
+      "material": "土地使用证明",
+      "result": "不通过",
+      "risk_level": "高",
+      "description": "涉及河流附近农田用地",
+      "location": "附件第 3 页"
+    }
+  ],
+  "risk_items": [
+    {
+      "risk_type": "涉水风险",
+      "level": "高",
+      "description": "项目临近河流，存在洪涝与组件涉水风险",
+      "source": "地理信息分析",
+      "location": "项目北侧临河区域"
+    },
+    {
+      "risk_type": "农业环境风险",
+      "level": "高",
+      "description": "项目位于农田区域，存在农药腐蚀与遮挡风险",
+      "source": "现场查勘",
+      "location": "项目西侧农田"
+    }
+  ],
+  "equipment_analysis": {
+    "component_model": "普通组件",
+    "hail_rating": "未评级",
+    "wind_rating": "未评级",
+    "snow_rating": "未评级",
+    "risk_level": "高"
+  },
+  "rule_results": [
+    {
+      "rule": "备案类型拒保规则",
+      "result": "拒保",
+      "suggestion": "渔光、集中式、林光类项目不予承保"
+    },
+    {
+      "rule": "涉水/农田环境拒保规则",
+      "result": "拒保",
+      "suggestion": "临近河流且处于农田环境的项目不予承保"
+    }
+  ]
+}

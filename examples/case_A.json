@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_name": "某工业园区屋顶分布式光伏电站",
+    "insured": "某制造有限公司",
+    "location": "某市工业园区标准厂房",
+    "installation_type": "屋顶分布式"
+  },
+  "material_results": [
+    {
+      "material": "营业执照",
+      "result": "通过",
+      "risk_level": "低",
+      "description": "证照信息完整有效",
+      "location": ""
+    },
+    {
+      "material": "备案证",
+      "result": "通过",
+      "risk_level": "低",
+      "description": "屋顶分布式备案，类型合规",
+      "location": ""
+    },
+    {
+      "material": "并网验收报告",
+      "result": "通过",
+      "risk_level": "低",
+      "description": "验收合格，资料齐全",
+      "location": ""
+    }
+  ],
+  "risk_items": [
+    {
+      "risk_type": "组件外观",
+      "level": "低",
+      "description": "组件外观良好，无明显破损",
+      "source": "图片风险识别",
+      "location": "1# 厂房南坡"
+    }
+  ],
+  "equipment_analysis": {
+    "component_model": "JKM550M-72HL4-V",
+    "hail_rating": "可抗 25mm 冰雹",
+    "wind_rating": "可抗 12 级风",
+    "snow_rating": "可承受 0.4kN/㎡ 雪荷载",
+    "risk_level": "低"
+  },
+  "rule_results": [
+    {
+      "rule": "基础承保规则",
+      "result": "通过",
+      "suggestion": ""
+    }
+  ]
+}

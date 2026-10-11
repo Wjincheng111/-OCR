@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_name": "某工业园区分布式光伏电站",
+    "insured": "示例新能源有限公司",
+    "location": "某省某市某县工业园区",
+    "installation_type": "彩钢瓦屋顶分布式"
+  },
+  "material_results": [
+    {
+      "material": "营业执照",
+      "result": "通过",
+      "risk_level": "低",
+      "description": "证照信息完整有效",
+      "location": ""
+    },
+    {
+      "material": "并网验收报告",
+      "result": "不通过",
+      "risk_level": "高",
+      "description": "缺少验收日期与签章",
+      "location": "3# 并网点"
+    }
+  ],
+  "risk_items": [
+    {
+      "risk_type": "屋面锈蚀",
+      "level": "高",
+      "description": "彩钢瓦屋面大面积锈蚀，存在塌陷风险",
+      "source": "图片风险识别"
+    },
+    {
+      "risk_type": "遮挡阴影",
+      "level": "中",
+      "description": "东侧组件受高耸建筑遮挡",
+      "source": "图片风险识别"
+    }
+  ],
+  "equipment_analysis": {
+    "component_model": "JKM550M-72HL4-V",
+    "hail_rating": "可抗 25mm 冰雹",
+    "wind_rating": "可抗 12 级风",
+    "snow_rating": "可承受 0.4kN/㎡ 雪荷载",
+    "risk_level": "中"
+  },
+  "rule_results": [
+    {
+      "rule": "高风险区域加费规则",
+      "result": "加费承保",
+      "suggestion": "建议上浮费率 15%，并附加屋面整改条件"
+    },
+    {
+      "rule": "材料完整性规则",
+      "result": "条件承保",
+      "suggestion": "补齐并网验收报告后方可承保"
+    }
+  ]
+}

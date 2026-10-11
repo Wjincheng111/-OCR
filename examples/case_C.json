@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_name": "某物流园区屋顶分布式光伏电站",
+    "insured": "某物流有限公司",
+    "location": "某市物流园区",
+    "installation_type": "屋顶分布式"
+  },
+  "material_results": [
+    {
+      "material": "营业执照",
+      "result": "通过",
+      "risk_level": "低",
+      "description": "证照信息完整有效",
+      "location": ""
+    },
+    {
+      "material": "备案证",
+      "result": "通过",
+      "risk_level": "低",
+      "description": "屋顶分布式备案，类型合规",
+      "location": ""
+    }
+  ],
+  "risk_items": [
+    {
+      "risk_type": "轻微遮挡",
+      "level": "中",
+      "description": "东侧组件受周边建筑轻微遮挡",
+      "source": "图片风险识别",
+      "location": "2# 阵列东侧第 3-6 排"
+    },
+    {
+      "risk_type": "车棚可燃物",
+      "level": "高",
+      "description": "光伏车棚下方存放可燃物",
+      "source": "现场查勘",
+      "location": "3# 光伏车棚"
+    },
+    {
+      "risk_type": "组件抗灾能力不足",
+      "level": "高",
+      "description": "组件抗风/抗冰雹等级低于区域标准",
+      "source": "组件抗灾能力分析",
+      "location": "全站组件"
+    }
+  ],
+  "equipment_analysis": {
+    "component_model": "普通组件",
+    "hail_rating": "仅可抗 15mm 冰雹",
+    "wind_rating": "仅可抗 9 级风",
+    "snow_rating": "可承受 0.2kN/㎡ 雪荷载",
+    "risk_level": "高"
+  },
+  "rule_results": [
+    {
+      "rule": "高风险加费规则",
+      "result": "加费承保",
+      "suggestion": "建议上浮费率 20%，并附加整改条件"
+    },
+    {
+      "rule": "车棚可燃物整改规则",
+      "result": "条件承保",
+      "suggestion": "清除车棚可燃物并增设消防设施后方可承保"
+    }
+  ]
+}
