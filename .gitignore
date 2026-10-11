@@ -1,0 +1,18 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.idea/
+.vscode/
+
+# Runtime OCR output; keep only the directory marker.
+output/*
+!output/.gitkeep
+
+# Local sample documents may contain sensitive customer data.
+sample_data/*
+!sample_data/README.md
